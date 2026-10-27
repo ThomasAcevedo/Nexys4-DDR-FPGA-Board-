@@ -10,3 +10,14 @@ Data being stored sequentially when we = '1'.
 Data being output to dout when address changes with we = '0'.
 
 All registers driving 0000 to dout when rst is pulled low ('0').
+
+
+
+
+
+Key Pin Map Summary for Nexys 4 DDR / Nexys A7:Clock: E3 (System 100 MHz clock)   
+Reset (rst): C12 (CPU RESET red button on bottom right — active-low natively)  
+Write Enable (we): N17 (BTNC / Center button)   
+Address (addr[2:0]): V10, U11, U12 (SW15, SW14, SW13) 
+Data Input (din[3:0]): R15, M13, L16, J15 (SW3, SW2, SW1, SW0)   
+Data Output (dout[3:0]): N14, J13, K15, H17 (LED3, LED2, LED1, LED0)   
