@@ -1,0 +1,12 @@
+Simulation Steps in Vivado
+Add all 5 .vhd files into Vivado.
+
+Set tb_reg_file as your top-level simulation module.
+
+Run Behavioral Simulation and observe:
+
+Data being stored sequentially when we = '1'.
+
+Data being output to dout when address changes with we = '0'.
+
+All registers driving 0000 to dout when rst is pulled low ('0').
