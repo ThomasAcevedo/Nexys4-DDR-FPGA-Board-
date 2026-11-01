@@ -21,7 +21,7 @@ begin
                 when "011" => dout <= "00001000";
                 when "100" => dout <= "00010000";
                 when "101" => dout <= "00100000";
-                when "110" => dout <= "00100000";
+                when "110" => dout <= "01000000";
                 when "111" => dout <= "10000000";
                 when others => dout <= "00000000";
             end case;
